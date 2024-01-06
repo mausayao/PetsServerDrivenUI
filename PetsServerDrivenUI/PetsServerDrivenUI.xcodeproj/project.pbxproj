@@ -15,6 +15,12 @@
 		B018E3452B48DA5300BE7BF3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018E3442B48DA5300BE7BF3 /* Constants.swift */; };
 		B018E3482B48DC0700BE7BF3 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018E3472B48DC0700BE7BF3 /* WebService.swift */; };
 		B018E34B2B48E07300BE7BF3 /* ScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018E34A2B48E07300BE7BF3 /* ScreenModel.swift */; };
+		B08F2CB62B49993E0060B72B /* UIComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08F2CB52B49993E0060B72B /* UIComponent.swift */; };
+		B08F2CB82B499A820060B72B /* UIImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08F2CB72B499A820060B72B /* UIImageComponent.swift */; };
+		B08F2CBA2B499C320060B72B /* FeaturedImageUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08F2CB92B499C320060B72B /* FeaturedImageUIModel.swift */; };
+		B08F2CBD2B49D66F0060B72B /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08F2CBC2B49D66F0060B72B /* Dictionary+Extensions.swift */; };
+		B08F2CBF2B49D9E60060B72B /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08F2CBE2B49D9E60060B72B /* UIImageView+Extension.swift */; };
+		B08F2CC22B49DBDA0060B72B /* PetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08F2CC12B49DBDA0060B72B /* PetListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		B018E3442B48DA5300BE7BF3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B018E3472B48DC0700BE7BF3 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		B018E34A2B48E07300BE7BF3 /* ScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenModel.swift; sourceTree = "<group>"; };
+		B08F2CB52B49993E0060B72B /* UIComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponent.swift; sourceTree = "<group>"; };
+		B08F2CB72B499A820060B72B /* UIImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageComponent.swift; sourceTree = "<group>"; };
+		B08F2CB92B499C320060B72B /* FeaturedImageUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedImageUIModel.swift; sourceTree = "<group>"; };
+		B08F2CBC2B49D66F0060B72B /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		B08F2CBE2B49D9E60060B72B /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		B08F2CC12B49DBDA0060B72B /* PetListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,9 @@
 		B018E33F2B48D87300BE7BF3 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B08F2CC02B49DBBE0060B72B /* ViewModel */,
+				B08F2CBB2B49D6390060B72B /* Extension */,
+				B08F2CB42B4999150060B72B /* Components */,
 				B018E3492B48E05900BE7BF3 /* Model */,
 				B018E3462B48DAC400BE7BF3 /* Networking */,
 				B018E3422B48D8D200BE7BF3 /* Features */,
@@ -125,8 +140,35 @@
 			isa = PBXGroup;
 			children = (
 				B018E34A2B48E07300BE7BF3 /* ScreenModel.swift */,
+				B08F2CB92B499C320060B72B /* FeaturedImageUIModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B08F2CB42B4999150060B72B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B08F2CB52B49993E0060B72B /* UIComponent.swift */,
+				B08F2CB72B499A820060B72B /* UIImageComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B08F2CBB2B49D6390060B72B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B08F2CBC2B49D66F0060B72B /* Dictionary+Extensions.swift */,
+				B08F2CBE2B49D9E60060B72B /* UIImageView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B08F2CC02B49DBBE0060B72B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B08F2CC12B49DBDA0060B72B /* PetListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +246,12 @@
 				B018E32C2B48D6FB00BE7BF3 /* AppDelegate.swift in Sources */,
 				B018E32E2B48D6FB00BE7BF3 /* SceneDelegate.swift in Sources */,
 				B018E3482B48DC0700BE7BF3 /* WebService.swift in Sources */,
+				B08F2CB82B499A820060B72B /* UIImageComponent.swift in Sources */,
+				B08F2CBA2B499C320060B72B /* FeaturedImageUIModel.swift in Sources */,
+				B08F2CBF2B49D9E60060B72B /* UIImageView+Extension.swift in Sources */,
+				B08F2CBD2B49D66F0060B72B /* Dictionary+Extensions.swift in Sources */,
+				B08F2CB62B49993E0060B72B /* UIComponent.swift in Sources */,
+				B08F2CC22B49DBDA0060B72B /* PetListViewModel.swift in Sources */,
 				B018E3452B48DA5300BE7BF3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
