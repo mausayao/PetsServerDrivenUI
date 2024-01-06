@@ -14,6 +14,7 @@
 		B018E3382B48D6FD00BE7BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B018E3362B48D6FD00BE7BF3 /* LaunchScreen.storyboard */; };
 		B018E3452B48DA5300BE7BF3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018E3442B48DA5300BE7BF3 /* Constants.swift */; };
 		B018E3482B48DC0700BE7BF3 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018E3472B48DC0700BE7BF3 /* WebService.swift */; };
+		B018E34B2B48E07300BE7BF3 /* ScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018E34A2B48E07300BE7BF3 /* ScreenModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B018E3392B48D6FD00BE7BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B018E3442B48DA5300BE7BF3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B018E3472B48DC0700BE7BF3 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		B018E34A2B48E07300BE7BF3 /* ScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		B018E33F2B48D87300BE7BF3 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B018E3492B48E05900BE7BF3 /* Model */,
 				B018E3462B48DAC400BE7BF3 /* Networking */,
 				B018E3422B48D8D200BE7BF3 /* Features */,
 				B018E3412B48D89700BE7BF3 /* Utils */,
@@ -116,6 +119,14 @@
 				B018E3472B48DC0700BE7BF3 /* WebService.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		B018E3492B48E05900BE7BF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B018E34A2B48E07300BE7BF3 /* ScreenModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B018E3302B48D6FB00BE7BF3 /* PetsViewController.swift in Sources */,
+				B018E34B2B48E07300BE7BF3 /* ScreenModel.swift in Sources */,
 				B018E32C2B48D6FB00BE7BF3 /* AppDelegate.swift in Sources */,
 				B018E32E2B48D6FB00BE7BF3 /* SceneDelegate.swift in Sources */,
 				B018E3482B48DC0700BE7BF3 /* WebService.swift in Sources */,
