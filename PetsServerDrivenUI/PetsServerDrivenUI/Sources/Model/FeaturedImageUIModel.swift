@@ -8,5 +8,5 @@
 import Foundation
 
 struct FeaturedImageUIModel: Decodable {
-    let url: URL
+    let imageUrl: URL
 }

@@ -23,7 +23,7 @@ final class UIImageComponent: UIComponent {
         
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.downloaded(from: featuredImage.url, contentMode: .scaleAspectFill)
+        imageView.downloaded(from: featuredImage.imageUrl, contentMode: .scaleAspectFit)
         
         return imageView
     }
