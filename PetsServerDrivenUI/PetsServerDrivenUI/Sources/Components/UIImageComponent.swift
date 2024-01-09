@@ -24,6 +24,7 @@ final class UIImageComponent: UIComponent {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.downloaded(from: featuredImage.imageUrl, contentMode: .scaleAspectFit)
+        imageView.heightAnchor.constraint(equalToConstant: 300).isActive = true
         
         return imageView
     }

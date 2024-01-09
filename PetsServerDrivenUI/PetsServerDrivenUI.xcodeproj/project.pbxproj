@@ -15,6 +15,7 @@
 		B018E3452B48DA5300BE7BF3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018E3442B48DA5300BE7BF3 /* Constants.swift */; };
 		B018E3482B48DC0700BE7BF3 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018E3472B48DC0700BE7BF3 /* WebService.swift */; };
 		B018E34B2B48E07300BE7BF3 /* ScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018E34A2B48E07300BE7BF3 /* ScreenModel.swift */; };
+		B05A84D52B4CD5D300F5E1BD /* PetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A84D42B4CD5D300F5E1BD /* PetsView.swift */; };
 		B08F2CB62B49993E0060B72B /* UIComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08F2CB52B49993E0060B72B /* UIComponent.swift */; };
 		B08F2CB82B499A820060B72B /* UIImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08F2CB72B499A820060B72B /* UIImageComponent.swift */; };
 		B08F2CBA2B499C320060B72B /* FeaturedImageUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08F2CB92B499C320060B72B /* FeaturedImageUIModel.swift */; };
@@ -34,6 +35,7 @@
 		B018E3442B48DA5300BE7BF3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B018E3472B48DC0700BE7BF3 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		B018E34A2B48E07300BE7BF3 /* ScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenModel.swift; sourceTree = "<group>"; };
+		B05A84D42B4CD5D300F5E1BD /* PetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsView.swift; sourceTree = "<group>"; };
 		B08F2CB52B49993E0060B72B /* UIComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponent.swift; sourceTree = "<group>"; };
 		B08F2CB72B499A820060B72B /* UIImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageComponent.swift; sourceTree = "<group>"; };
 		B08F2CB92B499C320060B72B /* FeaturedImageUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedImageUIModel.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				B018E32F2B48D6FB00BE7BF3 /* PetsViewController.swift */,
+				B05A84D42B4CD5D300F5E1BD /* PetsView.swift */,
 			);
 			path = Pets;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				B08F2CB62B49993E0060B72B /* UIComponent.swift in Sources */,
 				B08F2CC22B49DBDA0060B72B /* PetListViewModel.swift in Sources */,
 				B018E3452B48DA5300BE7BF3 /* Constants.swift in Sources */,
+				B05A84D52B4CD5D300F5E1BD /* PetsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
