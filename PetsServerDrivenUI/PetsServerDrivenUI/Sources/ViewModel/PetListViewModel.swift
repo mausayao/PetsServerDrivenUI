@@ -10,10 +10,10 @@ import Foundation
 @MainActor
 final class PetListViewModel: ObservableObject {
     
-    private var service: WebService
+    private var service: NetworkService
     @Published var components: [UIComponent] = []
     
-    init(service: WebService) {
+    init(service: NetworkService) {
         self.service = service
     }
     
@@ -21,7 +21,7 @@ final class PetListViewModel: ObservableObject {
         
         do {
             
-            let screenModel = try await service.laod(resource: Constants.Url.petListing)
+            let screenModel = try await service.laod(resource: Constants.ScreenResources.petListing)
             components = try screenModel.buildComponents()
             
         } catch {

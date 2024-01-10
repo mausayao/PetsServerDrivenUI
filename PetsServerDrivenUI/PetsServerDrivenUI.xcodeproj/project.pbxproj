@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B006A3952B4E1CF700B51CC5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B006A3942B4E1CF700B51CC5 /* NetworkService.swift */; };
+		B006A3972B4E1D3600B51CC5 /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B006A3962B4E1D3600B51CC5 /* LocalService.swift */; };
+		B006A3982B4E24A400B51CC5 /* pet-listing.json in Resources */ = {isa = PBXBuildFile; fileRef = B006A3922B4E1CA200B51CC5 /* pet-listing.json */; };
 		B018E32C2B48D6FB00BE7BF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018E32B2B48D6FB00BE7BF3 /* AppDelegate.swift */; };
 		B018E32E2B48D6FB00BE7BF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018E32D2B48D6FB00BE7BF3 /* SceneDelegate.swift */; };
 		B018E3302B48D6FB00BE7BF3 /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018E32F2B48D6FB00BE7BF3 /* PetsViewController.swift */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B006A3922B4E1CA200B51CC5 /* pet-listing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "pet-listing.json"; sourceTree = "<group>"; };
+		B006A3942B4E1CF700B51CC5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		B006A3962B4E1D3600B51CC5 /* LocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalService.swift; sourceTree = "<group>"; };
 		B018E3282B48D6FB00BE7BF3 /* PetsServerDrivenUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetsServerDrivenUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B018E32B2B48D6FB00BE7BF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B018E32D2B48D6FB00BE7BF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +85,7 @@
 				B018E32B2B48D6FB00BE7BF3 /* AppDelegate.swift */,
 				B018E32D2B48D6FB00BE7BF3 /* SceneDelegate.swift */,
 				B018E3392B48D6FD00BE7BF3 /* Info.plist */,
+				B006A3922B4E1CA200B51CC5 /* pet-listing.json */,
 			);
 			path = PetsServerDrivenUI;
 			sourceTree = "<group>";
@@ -135,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				B018E3472B48DC0700BE7BF3 /* WebService.swift */,
+				B006A3942B4E1CF700B51CC5 /* NetworkService.swift */,
+				B006A3962B4E1D3600B51CC5 /* LocalService.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -233,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B018E3382B48D6FD00BE7BF3 /* LaunchScreen.storyboard in Resources */,
+				B006A3982B4E24A400B51CC5 /* pet-listing.json in Resources */,
 				B018E3352B48D6FD00BE7BF3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,7 +260,9 @@
 				B018E32E2B48D6FB00BE7BF3 /* SceneDelegate.swift in Sources */,
 				B018E3482B48DC0700BE7BF3 /* WebService.swift in Sources */,
 				B08F2CB82B499A820060B72B /* UIImageComponent.swift in Sources */,
+				B006A3952B4E1CF700B51CC5 /* NetworkService.swift in Sources */,
 				B08F2CBA2B499C320060B72B /* FeaturedImageUIModel.swift in Sources */,
+				B006A3972B4E1D3600B51CC5 /* LocalService.swift in Sources */,
 				B08F2CBF2B49D9E60060B72B /* UIImageView+Extension.swift in Sources */,
 				B08F2CBD2B49D66F0060B72B /* Dictionary+Extensions.swift in Sources */,
 				B08F2CB62B49993E0060B72B /* UIComponent.swift in Sources */,

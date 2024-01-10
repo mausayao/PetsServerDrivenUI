@@ -9,7 +9,7 @@ import UIKit
 
 class PetsViewController: UIViewController {
     
-    private let viewModel = PetListViewModel(service: WebService())
+    private let viewModel = PetListViewModel(service: LocalService())
     private let petsView = PetsView()
     let stackView = UIStackView()
     
