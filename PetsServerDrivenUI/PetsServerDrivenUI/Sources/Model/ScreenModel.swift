@@ -13,6 +13,7 @@ enum ComponentError: Error {
 
 enum ComponentType: String, Decodable {
     case featuredImage
+    case carousel
 }
 
 struct ComponentModel: Decodable {
@@ -53,6 +54,13 @@ extension ScreenModel {
                         throw ComponentError.decodingError
                     }
                     components.append(UIImageComponent(featuredImage: uiModel))
+                
+            case .carousel:
+                guard let uiModel: CarouselUIModel = component.data.decode() else {
+                    throw ComponentError.decodingError
+                }
+                
+                components.append(CarouselComponent(uiModel: uiModel))
             }
         }
         
