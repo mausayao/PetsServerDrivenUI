@@ -25,7 +25,7 @@ final class PetsView: UIView, PetsViewProtocol {
         view.translatesAutoresizingMaskIntoConstraints = false
         view.spacing = 8
         view.axis = .vertical
-        view.distribution = .fillEqually
+        view.distribution = .fill
         return view
     }()
     
