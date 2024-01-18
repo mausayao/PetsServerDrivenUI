@@ -19,6 +19,8 @@
 		B018E3482B48DC0700BE7BF3 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018E3472B48DC0700BE7BF3 /* WebService.swift */; };
 		B018E34B2B48E07300BE7BF3 /* ScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018E34A2B48E07300BE7BF3 /* ScreenModel.swift */; };
 		B01B8E252B4F77FC00B50D80 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B8E242B4F77FC00B50D80 /* JSON.swift */; };
+		B03A393E2B58AB7C00860369 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A393D2B58AB7C00860369 /* Route.swift */; };
+		B03A39412B58ABAF00860369 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A39402B58ABAF00860369 /* Action.swift */; };
 		B05A84D52B4CD5D300F5E1BD /* PetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A84D42B4CD5D300F5E1BD /* PetsView.swift */; };
 		B05C05862B50BE1400EA4B80 /* CarouselUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05C05852B50BE1400EA4B80 /* CarouselUIModel.swift */; };
 		B05C05882B50BF3800EA4B80 /* CarouselComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05C05872B50BF3800EA4B80 /* CarouselComponent.swift */; };
@@ -46,6 +48,8 @@
 		B018E3472B48DC0700BE7BF3 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		B018E34A2B48E07300BE7BF3 /* ScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenModel.swift; sourceTree = "<group>"; };
 		B01B8E242B4F77FC00B50D80 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		B03A393D2B58AB7C00860369 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		B03A39402B58ABAF00860369 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		B05A84D42B4CD5D300F5E1BD /* PetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsView.swift; sourceTree = "<group>"; };
 		B05C05852B50BE1400EA4B80 /* CarouselUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselUIModel.swift; sourceTree = "<group>"; };
 		B05C05872B50BF3800EA4B80 /* CarouselComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselComponent.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 		B018E33F2B48D87300BE7BF3 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B03A393F2B58AB9B00860369 /* Action */,
+				B03A393C2B58AB6D00860369 /* Navigation */,
 				B08F2CC02B49DBBE0060B72B /* ViewModel */,
 				B08F2CBB2B49D6390060B72B /* Extension */,
 				B08F2CB42B4999150060B72B /* Components */,
@@ -165,6 +171,22 @@
 				B05C05852B50BE1400EA4B80 /* CarouselUIModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B03A393C2B58AB6D00860369 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				B03A393D2B58AB7C00860369 /* Route.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		B03A393F2B58AB9B00860369 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				B03A39402B58ABAF00860369 /* Action.swift */,
+			);
+			path = Action;
 			sourceTree = "<group>";
 		};
 		B08F2CB42B4999150060B72B /* Components */ = {
@@ -286,6 +308,7 @@
 				B018E34B2B48E07300BE7BF3 /* ScreenModel.swift in Sources */,
 				B018E32C2B48D6FB00BE7BF3 /* AppDelegate.swift in Sources */,
 				B018E32E2B48D6FB00BE7BF3 /* SceneDelegate.swift in Sources */,
+				B03A39412B58ABAF00860369 /* Action.swift in Sources */,
 				B018E3482B48DC0700BE7BF3 /* WebService.swift in Sources */,
 				B08F2CB82B499A820060B72B /* UIImageComponent.swift in Sources */,
 				B006A3952B4E1CF700B51CC5 /* NetworkService.swift in Sources */,
@@ -295,6 +318,7 @@
 				B006A3972B4E1D3600B51CC5 /* LocalService.swift in Sources */,
 				B0B99A002B520FC400B0CD0D /* CarouselCell.swift in Sources */,
 				B08F2CBF2B49D9E60060B72B /* UIImageView+Extension.swift in Sources */,
+				B03A393E2B58AB7C00860369 /* Route.swift in Sources */,
 				B08F2CBD2B49D66F0060B72B /* Dictionary+Extensions.swift in Sources */,
 				B08F2CB62B49993E0060B72B /* UIComponent.swift in Sources */,
 				B08F2CC22B49DBDA0060B72B /* PetListViewModel.swift in Sources */,
