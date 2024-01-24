@@ -21,6 +21,7 @@
 		B01B8E252B4F77FC00B50D80 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B8E242B4F77FC00B50D80 /* JSON.swift */; };
 		B03A393E2B58AB7C00860369 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A393D2B58AB7C00860369 /* Route.swift */; };
 		B03A39412B58ABAF00860369 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A39402B58ABAF00860369 /* Action.swift */; };
+		B03A39432B58AF6000860369 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A39422B58AF6000860369 /* Navigator.swift */; };
 		B05A84D52B4CD5D300F5E1BD /* PetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A84D42B4CD5D300F5E1BD /* PetsView.swift */; };
 		B05C05862B50BE1400EA4B80 /* CarouselUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05C05852B50BE1400EA4B80 /* CarouselUIModel.swift */; };
 		B05C05882B50BF3800EA4B80 /* CarouselComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05C05872B50BF3800EA4B80 /* CarouselComponent.swift */; };
@@ -50,6 +51,7 @@
 		B01B8E242B4F77FC00B50D80 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		B03A393D2B58AB7C00860369 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		B03A39402B58ABAF00860369 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		B03A39422B58AF6000860369 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 		B05A84D42B4CD5D300F5E1BD /* PetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsView.swift; sourceTree = "<group>"; };
 		B05C05852B50BE1400EA4B80 /* CarouselUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselUIModel.swift; sourceTree = "<group>"; };
 		B05C05872B50BF3800EA4B80 /* CarouselComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselComponent.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				B03A39402B58ABAF00860369 /* Action.swift */,
+				B03A39422B58AF6000860369 /* Navigator.swift */,
 			);
 			path = Action;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				B018E32C2B48D6FB00BE7BF3 /* AppDelegate.swift in Sources */,
 				B018E32E2B48D6FB00BE7BF3 /* SceneDelegate.swift in Sources */,
 				B03A39412B58ABAF00860369 /* Action.swift in Sources */,
+				B03A39432B58AF6000860369 /* Navigator.swift in Sources */,
 				B018E3482B48DC0700BE7BF3 /* WebService.swift in Sources */,
 				B08F2CB82B499A820060B72B /* UIImageComponent.swift in Sources */,
 				B006A3952B4E1CF700B51CC5 /* NetworkService.swift in Sources */,
